@@ -7,7 +7,7 @@ The `sendPlayerCount.lua` script is designed for Multi Theft Auto (MTA) servers 
 ## Functionality
 
 - **Data Collection**: Collects the server name, current player count, server IP, and a static "Online" status.
-- **Data Transmission**: Sends the collected data as a JSON payload to the API endpoint `https://bmrmta.squareweb.app/api/app`.
+- **Data Transmission**: Sends the collected data as a JSON payload to the API endpoint `https://example.app/api/app`.
 - **Periodic Execution**: Uses a timer to execute the data-sending function every 60 seconds.
 - **Callback Handling**: Includes a placeholder callback function to handle the API response or errors.
 
