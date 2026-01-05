@@ -33,7 +33,7 @@ The `sendPlayerCount.lua` script is designed for Multi Theft Auto (MTA) servers 
 
 - The script automatically starts sending data to the API upon resource start.
 - Data is sent every 60 seconds (60000 milliseconds) in an infinite loop (`setTimer` with `0` iterations).
-- The API endpoint (`https://bmrmta.squareweb.app/api/app`) must be accessible and configured to accept POST requests with JSON data.
+- The API endpoint (`http://localhost/api/app`) must be accessible and configured to accept POST requests with JSON data.
 
 ## Script Details
 
@@ -62,5 +62,5 @@ The `sendPlayerCount.lua` script is designed for Multi Theft Auto (MTA) servers 
 ## Troubleshooting
 
 - **API Errors**: Check the `callBack` function for error codes or messages returned by the API.
-- **Network Issues**: Verify that the MTA server can reach the API endpoint (`https://bmrmta.squareweb.app/api/app`).
+- **Network Issues**: Verify that the MTA server can reach the API endpoint (`http://localhost/api/app`).
 - **JSON Format**: Ensure the API accepts the JSON structure sent by the script.
